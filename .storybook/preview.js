@@ -1,4 +1,6 @@
 /** @type { import('@storybook/react').Preview } */
+import "../public/bootstrap.min.css";
+
 const preview = {
   parameters: {
     actions: { argTypesRegex: "^on[A-Z].*" },
