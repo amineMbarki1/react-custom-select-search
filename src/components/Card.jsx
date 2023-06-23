@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "../../public/bootstrap.min.css";
 
 const CardFooter = styled.div.attrs({ className: "card-footer" })``;
 

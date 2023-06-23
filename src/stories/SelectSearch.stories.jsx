@@ -5,14 +5,7 @@ import SelectSearch, { MultiSelectSearch } from "../components/SelectSearch";
 
 import Card from "../components/Card";
 
-import "../../.storybook/plugins/fontawesome-free/css/all.min.css";
-
-import "../../.storybook/plugins/icheck-bootstrap/icheck-bootstrap.min.css";
-import "../../.storybook/plugins/jqvmap/jqvmap.min.css";
-import "../../.storybook/plugins/overlayScrollbars/css/OverlayScrollbars.min.css";
-import "../../.storybook/plugins/summernote/summernote-bs4.css";
-import "../../.storybook/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css";
-import "../../.storybook/plugins/adminlte.min.css";
+// import "/bootstrap.min.css";
 
 export default {
   component: SelectSearch,
@@ -28,7 +21,6 @@ const cities = [
 ];
 
 function SingleSelectSearchComponent() {
-  console.log("change");
   const {
     control,
     formState: { errors },
