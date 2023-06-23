@@ -3,14 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/amineMbarki1/react-custom-select-search/",
   "scripts": {
     "dev": "vite --force",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-     "build-storybook": "build-storybook -o docs-build -s ./stories/plugins"
+    "build-storybook": "build-storybook -o docs-build -s ./stories/plugins"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
