@@ -28,6 +28,7 @@ const cities = [
 ];
 
 function SingleSelectSearchComponent() {
+  console.log("change");
   const {
     control,
     formState: { errors },
